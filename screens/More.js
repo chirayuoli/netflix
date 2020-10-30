@@ -3,8 +3,8 @@ import { View, Text } from 'react-native'
 
 export default function More() {
     return (
-        <View>
-            <Text>This is more</Text>
+        <View style={{flex:1, backgroundColor:'black'}}>
+            <Text style={{top:20}}>This is more</Text>
         </View>
     )
 }
