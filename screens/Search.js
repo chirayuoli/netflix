@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
         color:'white',
         fontWeight:'bold',
         fontSize:20,
-        paddingVertical:10,
+        paddingVertical:20,
         marginHorizontal:10
     },
     topSearches:{
