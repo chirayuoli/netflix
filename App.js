@@ -29,41 +29,41 @@ export default function App() {
       >
         <Tab.Screen name='Home' component={Home}
           options={{
-            tabBarLabel: 'Home',
+            tabBarLabel:<Text style={{ fontSize: 10, }}> Home</Text>,
             tabBarIcon: ({ color }) => (
-              <Octicons name="home" color={color} size={26} />
+              <Octicons name="home" color={color} size={23} />
             ),
           }}
         />
         <Tab.Screen name='Search' component={Search}
           options={{
-            tabBarLabel: 'Search',
+            tabBarLabel: <Text style={{ fontSize: 10, }}> Search</Text>,
             tabBarIcon: ({ color }) => (
-              <MaterialIcons name="search" color={ color } size={25} />
+              <MaterialIcons name="search" color={ color } size={23} />
             )
             }}
         />
         <Tab.Screen name='ComingSoon' component={ComingSoon}
          options={{
-          tabBarLabel: 'Coming Soon',
+          tabBarLabel: <Text style={{ fontSize: 10, }}> Coming Soon</Text>,
           tabBarIcon: ({ color }) => (
-            <MaterialIcons name="add-to-photos" color={ color } size={23} />
+            <MaterialIcons name="add-to-photos" color={ color } size={20} />
           )
           }}
         />
         <Tab.Screen name='Downloads' component={Downloads}
          options={{
-          tabBarLabel: 'Downloads',
+          tabBarLabel: <Text style={{ fontSize: 10, }}> Downloads</Text>,
           tabBarIcon: ({ color }) => (
-            <MaterialIcons name="file-download" color={ color } size={24} />
+            <MaterialIcons name="file-download" color={ color } size={22} />
           )
           }}
         />
         <Tab.Screen name='More' component={More}
          options={{
-          tabBarLabel: 'More',
+          tabBarLabel:<Text style={{ fontSize: 10, }}> More</Text>,
           tabBarIcon: ({ color }) => (
-            <MaterialIcons name="dehaze" color={ color } size={26} />
+            <MaterialIcons name="dehaze" color={ color } size={23} />
           )
           }}
         />
